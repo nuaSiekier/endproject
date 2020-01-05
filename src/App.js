@@ -32,6 +32,7 @@ class App extends Component {
           subtitle={BookingForm}
           dark={true}
           id="send-request"
+          Component={BookingForm}
         />
         <Section
           title="FAQ"
@@ -44,6 +45,7 @@ class App extends Component {
           subtitle={ContactForm}
           dark={true}
           id="contact"
+          Component={ContactForm}
         />
         <Footer />
       </div>
